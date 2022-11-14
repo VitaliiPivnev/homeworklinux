@@ -1,0 +1,7 @@
+   0 mkdir -p /home/user/start/ /otp/task/ && touch /home/user/start/1.txt
+   1 echo "Strat" >> /home/user/start/1.txt
+   2 date >> /home/user/start/1.txt
+   3 cp /home/user/start/1.txt /otp/task/start.txt
+   4 ls -la / >> /otp/task/start.txt | tail -4
+   5 history
+   6 history > homework.txt
